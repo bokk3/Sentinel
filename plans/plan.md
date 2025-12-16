@@ -18,7 +18,7 @@
 - [x] Survey contemporary AI ethics literature (Russell, Scharre, Bostrom)
 - [x] Review military AI policy documents (DoD, NATO, UN)
 - [x] Identify gaps in existing frameworks
-- [ ] Create annotated bibliography with key quotes and arguments
+- [x] Create annotated bibliography with key quotes and arguments
 
 **Deliverable:** Annotated bibliography (30-50 sources minimum)
 
@@ -26,13 +26,12 @@
 
 **Objective:** Draft initial ruleset inspired by Asimov but suited to warfare
 
-- [ ] Brainstorm potential rules/principles (aim for 3-7 core principles)
-- [ ] Map rules against PROJECT_CONTEXT.md ethical frameworks
-- [ ] Test rules against hypothetical scenarios
-- [ ] Identify tensions and contradictions
-- [ ] Refine and prioritize principles
-
-**Deliverable:** Draft ruleset with justifications (2-3 pages)
+- [x] Brainstorm potential rules/principles (aim for 3-7 core principles)
+- [x] Map rules against PROJECT_CONTEXT.md ethical frameworks
+- [x] Test rules against hypothetical scenarios
+- [x] Identify tensions and contradictions
+- [x] Refine and prioritize principles
+- [x] Draft ruleset with justifications (2-3 pages)
 
 ---
 

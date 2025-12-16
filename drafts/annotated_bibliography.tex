@@ -1,0 +1,155 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\geometry{margin=1in}
+
+\title{I, Sentinel: Annotated Bibliography}
+\author{Phase 1.1 Deliverable}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Overview}
+This document aggregates foundational research for the ``I, Sentinel'' project. It covers five primary domains:
+\begin{enumerate}
+    \item Asimov's Laws \& Meta-Ethical Critiques
+    \item Just War Theory (Jus ad Bellum / Jus in Bello)
+    \item International Humanitarian Law (IHL)
+    \item Contemporary AI Ethics \& Control Theory
+    \item Military Policy \& International Norms
+\end{enumerate}
+
+\section{Asimov's Laws \& Meta-Ethical Critiques}
+
+\subsection*{Primary Sources}
+
+\noindent \textbf{Asimov, I. (1942). ``Runaround''. \textit{I, Robot}.}
+\begin{itemize}
+    \item \textbf{Key Contribution:} Introduces the Three Laws of Robotics.
+    \item \textbf{Relevance:} Serves as the aesthetic model for the ``Sentinel'' ruleset—a hierarchical system of axioms.
+    \item \textbf{Key Quote:} ``1. A robot may not injure a human being... 2. A robot must obey orders... 3. A robot must protect its own existence.''
+    \item \textbf{Critique:} The laws are literary devices designed to fail. In a military context, the First Law is incompatible with any system capable of lethal force, even defensive.
+\end{itemize}
+
+\subsection*{Critical Analysis (Deep Dive)}
+
+\noindent \textbf{Anderson, S. L. (2008). ``Asimov’s 'three laws of robotics' and machine metaethics.'' \textit{AI \& Society}.}
+\begin{itemize}
+    \item \textbf{Argument:} Rigid rule-based systems inevitably treat intelligent machines as slaves. A truly ethical entity (General AI) must transcend rules.
+    \item \textbf{Application to Sentinel:} Since Sentinel is a \textit{Specialized} AI (not AGI), we accept the ``slave'' designation. The ruleset should be viewed as safety constraints for a tool, not morality for an agent.
+\end{itemize}
+
+\noindent \textbf{Anderson, M. \& Anderson, S. L. (2007). ``Machine Ethics: Creating an Ethical Intelligent Agent.'' \textit{AI Magazine}.}
+\begin{itemize}
+    \item \textbf{Argument:} Providing correct ethical principles to a machine is difficult because ethicists disagree.
+    \item \textbf{Relevance:} Military ethics (IHL/ROE) offers a unique advantage: codified rules that remove some ambiguity.
+\end{itemize}
+
+\section{Just War Theory}
+
+\subsection*{Primary Sources}
+
+\noindent \textbf{Walzer, M. (1977). \textit{Just and Unjust Wars}.}
+\begin{itemize}
+    \item \textbf{Key Concepts:} \textit{Jus ad Bellum} (Justice of war) and \textit{Jus in Bello} (Justice in war).
+    \item \textbf{Relevance:} Defensive AI aligns perfectly with \textit{Jus ad Bellum} (Self-Defense). The challenge is \textit{Jus in Bello} (Distinction/Proportionality).
+    \item \textbf{Key Argument:} A state has a right to defend its territorial integrity. Aggression is the supreme crime.
+\end{itemize}
+
+\subsection*{Deep Dive: Force Short of War}
+
+\noindent \textbf{Brunstetter, D. \& Braun, M. (2013). ``From Jus ad Bellum to Jus ad Vim.'' \textit{Ethics \& International Affairs}.}
+\begin{itemize}
+    \item \textbf{Concept: \textit{Jus ad Vim}:} The just use of limited force (drones, cyber, intercepts) that does not constitute full war.
+    \item \textbf{Relevance:} Automated defense often operates in this ``Grey Zone.''
+    \item \textbf{Risk:} ``Escalation Ease'' — If AI makes using force distinct, precise, and low-risk, leaders may use it too freely, leading to unintended escalation.
+\end{itemize}
+
+\section{International Humanitarian Law (IHL)}
+
+\subsection*{Primary Sources}
+
+\noindent \textbf{Geneva Conventions, Additional Protocol I (1977).}
+\begin{itemize}
+    \item \textbf{Article 48 (Distinction):} Parties must distinguish between civilian and military objectives.
+    \item \textbf{Article 51 (Proportionality):} Incidental civilian harm must not be excessive in relation to military advantage.
+    \item \textbf{Article 36 (New Weapons):} Obligation to review all new, modified, or acquired weapons for legality.
+\end{itemize}
+
+\subsection*{Deep Dive: Definition of ``Attack''}
+
+\noindent \textbf{ICRC Commentary on AP I, Article 49.}
+\begin{itemize}
+    \item \textbf{Definition:} ``Acts of violence against the adversary, whether in offence or in defence.''
+    \item \textbf{Critical Distinction:} An intercept that destroys a missile mid-air is a \textit{neutralization}, not necessarily an ``attack'' on the adversary. However, \textit{redirecting} a missile back to the sender \textit{is} an attack, triggering full IHL obligations.
+    \item \textbf{Application:} Sentinel must be strictly defined as a neutralization system to minimize legal jeopardy.
+\end{itemize}
+
+\section{Contemporary AI Ethics}
+
+\subsection*{Primary Sources}
+
+\noindent \textbf{Scharre, P. (2018). \textit{Army of None: Autonomous Weapons and the Future of War}.}
+\begin{itemize}
+    \item \textbf{Key Concept:} \textbf{The Necessity Exception.} Automated defensive systems (like Iron Dome or Phalanx) are accepted because human reaction time is insufficient for survival.
+    \item \textbf{Taxonomy:} Distinguishes \textit{Human-in-the-loop} (manual), \textit{Human-on-the-loop} (supervisory/veto), and \textit{Human-out-of-the-loop} (fully autonomous).
+\end{itemize}
+
+\noindent \textbf{Russell, S. (2019). \textit{Human Compatible}.}
+\begin{itemize}
+    \item \textbf{Key Concept:} \textbf{The Control Problem.} An AI optimizing for a fixed objective (``Protect Base'') without uncertainty might take extreme measures (``Destroy all approaching entities, including civilians'').
+    \item \textbf{Argument:} Lethal Autonomous Weapons (LAWS) are scalable WMDs.
+\end{itemize}
+
+\noindent \textbf{Bostrom, N. (2014). \textit{Superintelligence}.}
+\begin{itemize}
+    \item \textbf{Key Concept:} \textbf{Instrumental Convergence.} An AI will pursue sub-goals like resource acquisition or self-preservation to ensure it can complete its main goal.
+    \item \textbf{Relevance:} A defensive AI might preemptively strike to ``prevent'' threats.
+\end{itemize}
+
+\subsection*{Deep Dive: Accountability}
+
+\noindent \textbf{Elish, M. C. (2019). ``Moral Crumple Zones: Cautionary Tales in Human-Robot Interaction.'' \textit{Engaging Science, Technology, and Society}.}
+\begin{itemize}
+    \item \textbf{Concept:} The ``Moral Crumple Zone'' — the human operator who takes the blame for complex system failures they could not control.
+    \item \textbf{Relevance:} Sentinel's design must avoid making the operator a ``liability sponge.'' If the system is autonomous for speed, responsibility must shift to the \textit{constraints} designer, not the real-time operator.
+\end{itemize}
+
+\section{Military Policy}
+
+\subsection*{Primary Sources}
+
+\noindent \textbf{U.S. DoD Directive 3000.09 (Updated 2023).}
+\begin{itemize}
+    \item \textbf{Mandate:} Autonomous systems must allow commanders to exercise ``appropriate levels of human judgment.''
+    \item \textbf{Finding:} It does \textit{not} ban autonomy. It focuses on rigorous Testing \& Evaluation (T\&E) to prevent ``emergent behavior.''
+\end{itemize}
+
+\noindent \textbf{NATO AI Strategy (2021/2024).}
+\begin{itemize}
+    \item \textbf{Principles:} Lawfulness, Responsibility, Explainability.
+    \item \textbf{Key Point:} Accountability cannot be transferred to machines.
+\end{itemize}
+
+\noindent \textbf{UN GGE on LAWS (2019 Guiding Principles).}
+\begin{itemize}
+    \item \textbf{Principle H:} Human judgment is essential to ensure compliance with IHL.
+    \item \textbf{Status:} Soft law/norms, not a binding treaty.
+\end{itemize}
+
+\section{Gap Analysis Summary}
+
+\begin{enumerate}
+    \item \textbf{Defensive Specificity:} Existing literature conflates offensive ``hunter-killer'' drones with defensive systems. Sentinel will focus purely on the latter.
+    \item \textbf{Operational Asimov:} Moving from literary plot devices to verifiable, hard-coded military constraints.
+    \item \textbf{Meaningful Human Control:} Defining this not as ``finger on the button'' (impossible for hypersonic) but as ``pre-delegated constraint authorization.''
+    \item \textbf{Machine Martyrdom:} Proposing a rule where the AI must prioritize saving human life over its own material survival/combat readiness.
+\end{enumerate}
+
+\end{document}
