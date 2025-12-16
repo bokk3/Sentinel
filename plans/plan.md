@@ -12,12 +12,12 @@
 
 **Objective:** Comprehensive understanding of existing work
 
-- [ ] Read Asimov's Three Laws and critical analysis
-- [ ] Review Just War Theory foundations (Walzer, etc.)
-- [ ] Study International Humanitarian Law relevant sections
-- [ ] Survey contemporary AI ethics literature (Russell, Scharre, Bostrom)
-- [ ] Review military AI policy documents (DoD, NATO, UN)
-- [ ] Identify gaps in existing frameworks
+- [x] Read Asimov's Three Laws and critical analysis
+- [x] Review Just War Theory foundations (Walzer, etc.)
+- [x] Study International Humanitarian Law relevant sections
+- [x] Survey contemporary AI ethics literature (Russell, Scharre, Bostrom)
+- [x] Review military AI policy documents (DoD, NATO, UN)
+- [x] Identify gaps in existing frameworks
 - [ ] Create annotated bibliography with key quotes and arguments
 
 **Deliverable:** Annotated bibliography (30-50 sources minimum)
