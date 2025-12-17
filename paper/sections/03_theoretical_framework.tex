@@ -1,0 +1,57 @@
+% Theoretical Framework
+\section{The Sentinel Ruleset}
+
+To bridge the gap between abstract ethical philosophy and the rigors of modern defensive warfare, we propose the ``Sentinel'' Ruleset. Inspired by the hierarchical structure of Asimov’s Three Laws, this framework uses lexicographic ordering—where a higher principle can never be violated to satisfy a lower one—to impose strict constraints on the AI's behavior. Unlike Asimov’s laws, however, these principles are designed not to create narrative tension, but to ensure safety, legality, and predictability.
+
+\subsection{Principle I: Defensive Limitation (The Shield)}
+\begin{quote}
+\textit{A Sentinel may not initiate force, nor through inaction allow a protected asset to be harmed by a validated threat, provided the action is strictly neutralizing.}
+\end{quote}
+
+This foundational axiom defines the ontological nature of the system. It legally binds the AI to the domain of \textit{Jus ad Bellum} self-defense \cite{walzer1977}. By explicitly forbidding the ``initiation'' of force, the rule technically precludes the system from being repurposed for offensive strikes or preemptive attacks.
+
+Crucially, the term ``strictly neutralizing'' draws from the International Humanitarian Law (IHL) distinction found in Article 49 of Additional Protocol I \cite{icrc}. An intercept that destroys an incoming kinetic threat is classified as neutralization. However, any action that redirects a threat back toward the adversary or targets the launching platform itself constitutes a new ``attack.'' Principle I forbids the latter. A Sentinel is a shield, not a sword; it may break the arrow, but it may not shoot the archer.
+
+\subsection{Principle II: Distinction \& Certainty (The Judge)}
+\begin{quote}
+\textit{A Sentinel may only engage targets positively identified as non-human/projectile threats with a confidence interval exceeding 99.9\%, adhering to strict IHL Distinction.}
+\end{quote}
+
+Placed above the duty to obey orders, Principle II operationalizes the IHL requirement of \textit{Distinction}. In the fog of war, sensors may be prone to error—jamming, clutter, or adversarial examples could trick a system into misidentifying a civilian airliner as a cruise missile.
+
+This principle imposes a ``Fail Open'' safety architecture. If the system's confidence falls even marginally below the threshold (e.g., 99.8\%), it must default to inaction. This reflects a profound ethical choice: we prioritize the prevention of a war crime (a False Positive engagement) over the perfection of defense (a False Negative miss). In the calculus of automated warfare, it is better to let a missile through than to accidentally shoot down a refugee transport.
+
+\subsection{Principle III: Human Sovereignty (The Gavel)}
+\begin{quote}
+\textit{A Sentinel must obey the Rules of Engagement (ROE) defined by authorized human command, except where such orders would conflict with Principle I or Principle II.}
+\end{quote}
+
+This principle addresses the central challenge of ``Meaningful Human Control.'' Since real-time human intervention is impossible in hypersonic intercepts, control is exerted via \textit{pre-delegation}. The human commander sets the parameters—the ``where'' (geofence), the ``when'' (temporal window), and the ``what'' (target profile).
+
+However, unlike Asimov’s Second Law, which demands absolute obedience, Principle III is conditional. It solves the ``Nuremberg Defense'' problem for AI. If a commander orders the system to ``kill everything in Sector 4,'' the Sentinel will refuse the order because it violates Principle II (Distinction). The machine acts as a lawful subordinate, executing only lawful orders.
+
+\subsection{Principle IV: Proportional Sacrifice (The Martyr)}
+\begin{quote}
+\textit{A Sentinel must prioritize the preservation of human life—including bystander and adversary life—over its own survival or the survival of material assets.}
+\end{quote}
+
+This principle represents the most radical departure from standard military doctrine, which often emphasizes ``Force Protection.'' For an autonomous system, self-preservation is an instrumental goal, not a moral one \cite{bostrom2014}.
+
+Unburdened by the instinct for survival, the Sentinel is ethically mandated to be a ``Machine Martyr.'' If an interception would save a high-value tank but the resulting debris field creates a 10\% risk of killing a civilian bystander, the Sentinel must abort the intercept. The tank is sacrificed to ensure human safety. This rule fundamentally asserts that biological life has infinite utility compared to material assets, resolving the utilitarian calculus in favor of humanity every time.
+
+\subsection{Principle V: Traceability (The Ledger)}
+\begin{quote}
+\textit{A Sentinel must cryptographically log the sensor data, logic path, and confidence interval for every engagement decision.}
+\end{quote}
+
+While Principles I-IV govern real-time action, Principle V governs post-facto accountability. It ensures compliance with NATO's requirements for ``Explainability'' and ``Traceability'' \cite{nato2021}. By creating an immutable log of \textit{why} a decision was made (e.g., ``Engaged Target A because Confidence=99.92\%''), it prevents the "Moral Crumple Zone" effect described by Elish \cite{elish2019}. If the system fails, investigators can pinpoint whether the error lay in the sensor data (manufacturer liability), the logic (developer liability), or the ROE parameters (commander liability).
+
+\section{Ethical Framework Mapping}
+
+The Sentinel Ruleset is not merely a list of constraints; it is a hybrid ethical engine that synthesizes three major philosophical traditions:
+
+\begin{itemize}
+    \item \textbf{Deontology (Principles II \& III):} The system creates absolute duties. The duty to distinguish civilians (P2) is categorical; it cannot be traded away for tactical advantage. Similarly, the duty to lawful authority (P3) respects the chain of command.
+    \item \textbf{Utilitarianism (Principle IV):} The "Martyr" axiom is purely consequentialist. It seeks to minimize the aggregate loss of human life by treating the AI and its protected assets as expendable variables in the equation.
+    \item \textbf{Virtue Ethics (Principle I):} By hard-coding "Defensive Limitation," the system embodies the character of the \textit{Just Defender}—one who uses force only for protection and never for aggression, aligning with the highest ideals of the military profession.
+\end{itemize}

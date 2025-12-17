@@ -1,0 +1,29 @@
+% Introduction
+\subsection{The New Face of War}
+
+In Isaac Asimov's 1942 short story \textit{Runaround}, a robot named Speedy circles a selenium pool on Mercury, paralyzed by a conflict between the Second Law (obey orders) and the Third Law (protect existence). The drama unfolds over hours, allowing human protagonists to intervene, debate, and trick the machine into compliance \cite{asimov1950}. This literary vision of artificial intelligence—deliberative, slow, and ultimately subordinate to human intervention—has profoundly shaped the public imagination.
+
+However, the reality of modern warfare bears little resemblance to Asimov's Mercury. Today, the frontier of military artificial intelligence is defined not by the slow deliberation of humanoid robots, but by the sub-second reaction times required to intercept hypersonic threats. A hypersonic missile traveling at Mach 8 covers roughly 2.7 kilometers every second. The OODA loop (Observe, Orient, Decide, Act) of a human commander is physically incapable of reacting to such a threat in the terminal phase. Survival depends on automation.
+
+This creates a fundamental tension. Ethical frameworks for AI, including Asimov’s Laws, international policy discussions, and humanitarian norms, largely presuppose a ``Human-in-the-loop'' or at least a human capable of meaningful supervision. But for defensive systems like the Iron Dome, Phalanx CIWS, or future laser-based intercepts, the ``loop'' is tighter than human cognition allows. We are thus faced with a paradox: morality requires human control, but survival requires machine speed. How do we embed ethical constraints into a system that must act faster than its ethical supervisors?
+
+
+\subsection{Problem Statement}
+
+The current discourse on military AI suffers from a dangerous conflation. Critics, such as the Campaign to Stop Killer Robots, often group all autonomous systems under the umbrella of ``Lethal Autonomous Weapons Systems'' (LAWS), imagining hunter-killer drones that scour battlefields for human targets \cite{russell2019}. Meanwhile, military strategists euphemistically refer to ``autonomy'' as a mere efficiency tool, often glossing over the profound shift in agency it represents \cite{scharre2018}.
+
+This binary discourse leaves a critical gap: the ethics of \textit{purely defensive} autonomy. A system designed exclusively to neutralize incoming projectiles operates under a fundamentally different moral calculus than one designed to project force. Yet, existing ethical frameworks—from Asimov’s absolute prohibition on harm to the DoD’s vague requirement for ``appropriate levels of human judgment'' \cite{dod2023}—fail to account for this specificity. Asimov’s First Law would paralyze a defensive system if an intercept merely risked injuring an enemy pilot. Conversely, a carte-blanche military directive might allow a system to inadvertently strike a civilian airliner in its zeal to protect a base.
+
+There is, as yet, no rigorous, technically implemented ethical framework specifically conditioned for high-speed, purely defensive AI. We lack a ``Sentinel'' morality—a set of rules that justifies the automated use of force while strictly constraining it to the domain of defense.
+
+\subsection{Research Questions}
+This paper seeks to address this gap by proposing a novel ethical architecture for defensive AI. It is guided by three primary research questions:
+
+\begin{enumerate}
+    \item \textbf{Adaptation:} How can the hierarchical structure of Asimov’s Laws be adapted from a literary plot device into a rigorous, verifiable military protocol?
+    \item \textbf{Control:} What constitutes ``Meaningful Human Control'' in a system where real-time human intervention is impossible due to the speed of engagement?
+    \item \textbf{Code compliance:} How can the principles of International Humanitarian Law (IHL)—specifically distinction and proportionality—be translated into hard-coded constraints for a ``fail-open'' defensive architecture?
+\end{enumerate}
+
+\subsection{Roadmap}
+The remainder of this paper is structured as follows. Section \ref{sec:litreview} reviews the existing literature, highlighting the inadequacies of Asimov’s original laws and the current debates within Just War Theory. Section \ref{sec:framework} introduces the core contribution of this work: the ``Sentinel'' Ruleset, a five-principle hierarchy designed to operationalize defensive ethics. Section \ref{sec:discussion} stress-tests this ruleset against complex scenarios, including the ``Hypersonic Dilemma'' and ``Broken Arrow'' friendly-fire incidents, discussing the inherent trade-offs between certainty and safety. Finally, Section \ref{sec:conclusion} outlines the path toward technical implementation and international standardization.

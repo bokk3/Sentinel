@@ -1,0 +1,20 @@
+% Discussion
+\section{Discussion}
+
+The implementation of the Sentinel Ruleset introduces profound ethical and operational trade-offs that cannot be ignored. By strictly prioritizing "Distinction" and "Human Life" over "Defense," the framework creates a system that may be less tactically effective than a purely unrestricted AI, but is infinitely more ethically robust.
+
+\subsection{The Blackstone's Ratio of AI Warfare}
+The central tension in the Sentinel framework is between \textit{Risk of False Positive} (engaging a non-combatant) and \textit{Risk of False Negative} (failing to engage a threat). Principle II's requirement for a 99.9\% confidence interval inherently biases the system toward False Negatives. In a scenario where an incoming missile is masked by poor weather or jamming, resulting in 95\% confidence, the Sentinel will stand down. The base will be hit. People may die.
+
+This design choice mirrors the legal principle of Blackstone's Ratio: ``It is better that ten guilty persons escape than that one innocent suffer.'' In the context of automated warfare, we argue that the ``Escape'' of a guilty missile is a tragedy of war, but the ``Suffering'' of an innocent civilian struck by an AI is a war crime that fundamentally illegitimizes the state's use of force. To invert this ratio—to prioritize defense at the cost of innocent life—is to cross the threshold into ``Total War.''
+
+\subsection{The Paradox of Pre-Delegation}
+Principle III relies on pre-delegated ROE. However, pre-delegation assumes that a commander can accurately foresee the tactical reality of the future. The ``Paradox of Pre-Delegation'' is that the commander is responsible for a context they have not seen. If a commander authorizes a ``Free Fire Zone'' in Sector 4, believing it to be empty, but refugees move in an hour later, the ROE is now invalid.
+The Sentinel solves this not by obediently firing, but by using Principle II (Distinction) as a check. The AI effectively says, ``Commander, your valid order to fire in Sector 4 is now invalid because I detect civilians.'' This creates a dynamic, corrective feedback loop between Human Intent and Machine Perception.
+
+\subsection{Implementation Challenges}
+Translating ``99.9\% Certainty'' into code is a non-trivial engineering challenge. Deep Learning models are notoriously overconfident on out-of-distribution data. A standard CNN might classify a cloud as a missile with 99.9\% confidence if trained on a biased dataset.
+Therefore, the Sentinel framework cannot rely on a single neural network. It requires an \textit{Ensemble Consensus} architecture, where multiple independent models (Radar-Net, Thermal-Net, Lidar-Net) much agree. If Radar says ``Missile'' (99\%) but Thermal says ``Bird'' (60\%), the aggregate confidence drops, triggering the Fail Open safety.
+
+\subsection{Social and Psychological Effects}
+Deploying ``Martyr'' machines may change the psychology of warfare. If soldiers know the AI will sacrifice itself to save them, they may take greater risks. Conversely, if they know the AI will sacrifice \textit{the base} to save a civilian (Scenario B), they may distrust the system. Trust calibration is critical. Personnel must understand that the Sentinel is not a ``Guardian Angel'' that ensures their survival at all costs, but a ``Lawful Protector'' that acts only within the bounds of international law.
