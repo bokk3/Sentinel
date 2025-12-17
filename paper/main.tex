@@ -7,9 +7,11 @@
 \usepackage{enumitem}
 \usepackage{titlesec}
 
+\usepackage{natbib}
+
 % Academic Metadata
-\title{I, Sentinel: Establishing Ethical Foundations for Defensive AI Systems}
-\author{[Author Name]}
+\title{I, Sentinel:\\Establishing Ethical Foundations for Defensive AI Systems}
+\author{Boris Truyens et al.}
 \date{\today}
 
 \geometry{margin=1in}
@@ -44,15 +46,23 @@
 \label{sec:analysis}
 \input{sections/04_analysis}
 
+\section{Comparative Case Studies}
+\label{sec:comparative}
+\input{sections/04b_comparative}
+
 \section{Discussion}
 \label{sec:discussion}
 \input{sections/05_discussion}
+
+\newpage
 
 \section{Conclusion}
 \label{sec:conclusion}
 \input{sections/06_conclusion}
 
-\bibliographystyle{plain}
+\newpage
+
+\bibliographystyle{apalike}
 \bibliography{references}
 
 \end{document}

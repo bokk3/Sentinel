@@ -1,31 +1,45 @@
-\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}The New Face of War}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Problem Statement}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Research Questions}{4}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Roadmap}{4}{subsection.1.4}%
-\contentsline {section}{\numberline {2}Literature Review}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}The Asimovian Legacy and its Military Inadequacies}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Just War Theory: From \textit {Bellum} to \textit {Vim}}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}International Humanitarian Law (IHL) and the Definition of Attack}{5}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Contemporary AI Ethics: The Control Problem and Responsibility}{5}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Synthesis: The Defensive Gap}{6}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Theoretical Framework}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Principle I: Defensive Limitation (The Shield)}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Principle II: Distinction \& Certainty (The Judge)}{7}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Principle III: Human Sovereignty (The Gavel)}{7}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Principle IV: Proportional Sacrifice (The Martyr)}{7}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Principle V: Traceability (The Ledger)}{7}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Ethical Framework Mapping}{8}{section.4}%
-\contentsline {section}{\numberline {5}Analysis and Application}{8}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Scenario A: The Hypersonic Dilemma (Speed vs. Control)}{8}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Scenario B: The Broken Arrow (The Certainty Threshold)}{9}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Scenario C: The Urban Shield (Machine Martyrdom)}{9}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Analysis of Adversarial Dynamics}{9}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Discussion}{10}{section.6}%
-\contentsline {subsection}{\numberline {6.1}The Blackstone's Ratio of AI Warfare}{10}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}The Paradox of Pre-Delegation}{10}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Implementation Challenges}{10}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Social and Psychological Effects}{11}{subsection.6.4}%
-\contentsline {section}{\numberline {7}Conclusion}{11}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Summary of Contributions}{11}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Future Work}{11}{subsection.7.2}%
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}The New Face of War}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Problem Statement}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Research Questions}{5}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Roadmap}{5}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Literature Review}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}The Asimovian Legacy and its Military Inadequacies}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Just War Theory: From \textit {Bellum} to \textit {Vim}}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}International Humanitarian Law (IHL) and the Definition of Attack}{6}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}The Distinction Imperative}{6}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Defensive Necessity and Proportionality}{7}{subsubsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.4}Contemporary AI Ethics: The Control Problem and Responsibility}{7}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Synthesis: The Defensive Gap}{8}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Theoretical Framework}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Principle I: Defensive Limitation (The Shield)}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Principle II: Distinction \& Certainty (The Judge)}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Principle III: Human Sovereignty (The Gavel)}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Principle IV: Proportional Sacrifice (The Martyr)}{9}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Principle V: Traceability (The Ledger)}{9}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Ethical Framework Mapping}{10}{section.4}%
+\contentsline {section}{\numberline {5}Analysis and Application}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Scenario A: The Hypersonic Dilemma (Speed vs. Control)}{10}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Scenario B: The Broken Arrow (The Certainty Threshold)}{11}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Scenario C: The Urban Shield (Machine Martyrdom)}{11}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Comparative Case Studies}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Iron Dome: The Limits of Supervisory Control}{12}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}The Operator's Dilemma}{12}{subsubsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.2}Aegis Combat System: The Myth of Dangerous Autonomy}{12}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Data vs. Psychology}{13}{subsubsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.3}Patriot System: The Fratricide Problem}{13}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}IFF Failure and System Trust}{13}{subsubsection.6.3.1}%
+\contentsline {section}{\numberline {7}Discussion}{14}{section.7}%
+\contentsline {subsection}{\numberline {7.1}The Blackstone's Ratio of AI Warfare}{14}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}The Paradox of Pre-Delegation}{14}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Implementation Challenges}{14}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Social and Psychological Effects}{15}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}The Adversarial Vulnerability}{15}{subsection.7.5}%
+\contentsline {subsubsection}{\numberline {7.5.1}Adversarial Examples and Spoofing}{15}{subsubsection.7.5.1}%
+\contentsline {subsubsection}{\numberline {7.5.2}The Cost of Ethics}{15}{subsubsection.7.5.2}%
+\contentsline {subsection}{\numberline {7.6}Red Teaming the Sentinel: Counter-Arguments and Rebuttals}{16}{subsection.7.6}%
+\contentsline {subsubsection}{\numberline {7.6.1}The Utilitarian Critique: The Numbers Game}{16}{subsubsection.7.6.1}%
+\contentsline {subsubsection}{\numberline {7.6.2}The Realist Critique: The Suicide Pact}{16}{subsubsection.7.6.2}%
+\contentsline {section}{\numberline {8}Conclusion}{17}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Summary of Contributions}{17}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Future Work}{17}{subsection.8.2}%

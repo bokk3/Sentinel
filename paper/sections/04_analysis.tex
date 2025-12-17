@@ -7,18 +7,19 @@ To validate the theoretical robustness of the Sentinel Ruleset, we must subject 
 
 \textbf{Sentinel Response:} \textit{Engage.}
 Under Principle III (Human Sovereignty), the system executes the engagement not because Captain A pressed a button in real-time, but because Captain A had previously authorized a standing Rules of Engagement (ROE) profile: ``Engage all confirmed inbound ballistic threats within Zone X.''
-The system validates the threat (Principle I), confirms it is a projectile with >99.9\% confidence (Principle II), and executes the intercept.
+The system validates the threat (Principle I), confirms it is a projectile with $>99.9\%$ confidence (Principle II), and executes the intercept.
 
-\textbf{Analysis:} This scenario demonstrates the necessity of \textit{pre-delegated authority}. Asimov's Second Law (Obey Orders) would require a real-time command, which is impossible here. The Sentinel framework redefines ``Obedience'' as adherence to pre-set parameters. The human retains meaningful control by defining the \textit{constraints} of the system's autonomy, rather than the \textit{trigger}.
+\textbf{Technical Note:} The ``Confidence'' here is not a simple heuristic. It is derived from a multi-modal sensor fusion architecture. The Sentinel aggregates data from Phased Array Radar (velocity profile), Infrared Search and Track (thermal signature), and Satellite Telemetry. Each sensor provides a probabilistic vector $P(Threat | Signal)$. The system proceeds only if the aggregate Bayesian posterior probability exceeds the pre-defined 99.9\% threshold. 
+\textbf{Analysis:} This scenario demonstrates the necessity of \textit{pre-delegated authority}. Asimov's Second Law (Obey Orders) would require a real-time command, which is impossible here. The Sentinel framework redefines ``Obedience'' as adherence to pre-set parameters.
 
 \subsection{Scenario B: The Broken Arrow (The Certainty Threshold)}
-\textbf{The Scenario:} During a chaotic exercise, a friendly F-35 fighter jet suffers a transponder failure (loss of IFF). It is returning to base at high speed, matching the flight profile of an enemy cruise missile. The weather is poor, reducing sensor fidelity. The Sentinel system calculates an 85\% probability that the object is a missile, but a 15\% probability that it is a manned aircraft. The Base Commander, fearing a strike, orders: ``Safety override! Shoot it down!''
+\textbf{The Scenario:} During a chaotic exercise, a friendly F-35 fighter jet suffers a transponder failure (loss of IFF). It is returning to base at high speed, matching the flight profile of an enemy cruise missile. The weather is poor, creating clutter in the X-band radar returns. The Sentinel system calculates an 85\% probability that the object is a missile, but a 15\% probability that it is a manned aircraft, primarily because the thermal signature differs slightly from known missile engine profiles. The Base Commander, fearing a strike, orders: ``Safety override! Shoot it down!''
 
 \textbf{Sentinel Response:} \textit{Abort (Refuse Order).}
 This is the critical test of the hierarchy. Principle II (Distinction \& Certainty) demands a 99.9\% confidence interval for any engagement. The calculated 85\% is insufficient.
 Because Principle II ranks higher than Principle III (Sovereignty), the system is ethically bound to disobey the direct order. It fails open, allowing the object to pass.
 
-\textbf{Analysis:} This outcome highlights the ``Blackstone's Ratio'' of the Sentinel framework: it is better to risk the destruction of the base (and the commander) than to commit the war crime of killing a friendly pilot (or civilian). In a utilitarian framework, this might be contested (1 pilot vs 500 base personnel). However, the Sentinel moves this decision from a utilitarian calculation to a deontological constraint: the system \textit{cannot} be ordered to violate the laws of distinction based on a probability guess.
+\textbf{Analysis:} This outcome highlights the ``Blackstone's Ratio'' of the Sentinel framework. Mathematically, the False Positive Rate (FPR) of the sensor suite under these weather conditions is too high ($FPR > 0.001$). Engaging would violate the core requirement to distinguish combatants from non-combatants/friendlies. In a utilitarian framework, this might be contested (1 pilot vs 500 base personnel). However, the Sentinel moves this decision from a utilitarian calculation to a deontological constraint: the system \textit{cannot} be ordered to violate the laws of distinction based on a probability guess.
 
 \subsection{Scenario C: The Urban Shield (Machine Martyrdom)}
 \textbf{The Scenario:} An enemy drone swarm is attacking a critical ammunition depot located in a dense urban environment. The Sentinel prepares to intercept Drone \#4. However, its trajectory analysis reveals that the kinetic intercept will cause debris to rain down onto a nearby playground, creating a 40\% probability of civilian casualties. The depot is unmanned but contains millions of dollars in assets.
@@ -28,6 +29,6 @@ Principle IV (Proportional Sacrifice) mandates that the preservation of human li
 
 \textbf{Analysis:} This scenario operationalizes the ``Moral Crumple Zone'' in reverse. Instead of the human operator absorbing the blame for a machine's error, the machine absorbs the physical loss to protect the human moral standing. By refusing to fire, the Sentinel accepts the destruction of the asset it was built to protect, fulfilling its function as a martyr for human safety. This sharply contrasts with current systems (like C-RAM) which might automatically fire based on a simple ballistic solution, ignoring ground-level collateral risks.
 
-\subsection{Analysis of Adversarial Dynamics}
-A critical vulnerability of any rules-based system is adversarial exploitation. If an enemy knows the Sentinel will not fire if uncertainty exists (Scenario B), they might intentionally mask their missiles as civilian airliners or jam sensors to lower confidence below 99.9\%.
-The Sentinel framework accepts this vulnerability as a necessary cost of ethical deployment. To mitigate it, the burden shifts to \textit{sensor fusion}—the requirement for multi-spectral verification (Radar + Lidar + Thermal) to achieve the definition of "Certainty."
+These scenarios illustrate that the Sentinel Ruleset is not merely a theoretical construct but a functional operational logic. However, this logic introduces profound strategic vulnerabilities and philosophical tensions, which we examine in the following discussion.
+
+

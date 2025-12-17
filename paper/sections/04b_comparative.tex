@@ -1,0 +1,45 @@
+% Comparative Analysis
+To ground the Sentinel Ruleset in operational reality, we compare it against three existing defensive architectures: the Iron Dome (Israel), the Aegis Combat System (USA), and the Patriot Missile System (USA). These comparative case studies serve two purposes: first, to demonstrate that current "human-in-the-loop" doctrines are insufficient for hypersonic/saturation warfare; and second, to illustrate specifically where the Sentinel's deontological constraints (Fail Open, Martyrdom) diverge from the utilitarian logic of existing systems.
+
+\subsection{Iron Dome: The Limits of Supervisory Control}
+The Iron Dome, developed by Rafael Advanced Defense Systems, represents the gold standard in short-range rocket defense (C-RAM). Operational since 2011, it has achieved intercept rates exceeding 90\%. Its architecture is best described as "Human-on-the-loop" (Supervisory Control).
+The system's EL/M-2084 Multi-Mission Radar detects a launch, and the Battle Management \& Weapon Control (BMC) unit calculates the trajectory. Crucially, the BMC performs an instantaneous impact prediction. If the rocket is projected to land in an uninhabited area, the system permits it to fall. If it threatens a "Protected Zone," it recommends an interception.
+
+\subsubsection{The Operator's Dilemma}
+In a saturation attack involving hundreds of rockets, the human operator functions merely as a veto-gatekeeper. They have seconds to override a firing solution. Cognitive science suggests that humans in this position suffer from "Automation Bias"—the tendency to trust the machine's judgment implicitly when time pressure is acute.
+The Iron Dome, therefore, effectively operates as an autonomous system with a human rubber-stamp.
+\textbf{Sentinel Divergence:} The critical difference lies in the \textit{default state}. Iron Dome's bias is towards engagement (Fail Secure). The Sentinel's Principle II reverses this: the default state is \textit{Inaction} unless positive ID is confirmed. Furthermore, Iron Dome's "Protection Zone" logic is purely utilitarian. It does not explicitly incorporate a "Martyr" function (Principle IV) where the interceptor self-destructs if debris risks hitting a civilian outside the zone. A Sentinel would abort a successful intercept if the \textit{outcome} (debris) violated the distinction principle, whereas Iron Dome accepts the statistical reality of falling debris as a necessary byproduct of defense.
+
+\subsection{Aegis Combat System: The Myth of Dangerous Autonomy}
+The July 3, 1988, shootdown of Iran Air Flight 655 by the USS \textit{Vincennes} is frequently cited by critics (like the Campaign to Stop Killer Robots) as a warning against autonomous weapons. This analysis is factually incorrect and draws the wrong lesson.
+The Aegis system on the \textit{Vincennes} was \textit{not} in "Auto-Special" mode (its fully autonomous setting). The engagement was fully authorized by Captain Will Rogers III. The tragedy was a catastrophic failure of Human-in-the-loop decision making, not algorithmic autonomy.
+
+\subsubsection{Data vs. Psychology}
+Forensic analysis of the ship's data tapes revealed that the Aegis AN/SPY-1 radar functioned perfectly. It correctly tracked the Airbus A300 (Flight 655) as ascending from 900ft to 12,000ft and broadcasting a civilian Mode III transponder signal code 6760. The system did \textit{not} identify it as an F-14.
+However, the human crew, operating under extreme stress after a surface engagement with Iranian gunboats, fell victim to "Scenario Fulfillment" bias. They psychologically filtered the data to match their expectation of an attack. They misread the altitude readout as descending and convinced themselves the Mode III squawk was a distinct Mode II (military) signal.
+\textbf{Sentinel Convergence:} This post-mortem validates Principle III (Human Sovereignty) \textit{constrained} by Principle II (Certainty). Under the Sentinel Ruleset, the human commander's order to "Kill the F-14" would have been rejected by the AI. The system's sensors showed "Ascending + Civilian Squawk," resulting in a threat confidence $\ll 99.9\%$. The Sentinel would have "Failed Open," effectively telling the captain: "I cannot comply with an unlawful order based on faulty data." The \textit{Vincennes} incident proves that in high-speed, data-rich warfare, the human mind is often the "Moral Crumple Zone"—the weakest link in the ethical chain. A strictly rule-bound AI would have been \textit{more} humane than the panicked human crew.
+
+\subsection{Patriot System: The Fratricide Problem}
+During the initial invasion phase of the 2003 Iraq War, U.S. Patriot missile batteries were involved in two high-profile fratricide incidents. On March 23, a Royal Air Force Tornado GR4 was shot down, killing both crew members. On April 2, a U.S. Navy F/A-18C Hornet was destroyed, killing the pilot.
+In both cases, the Patriot system misidentified friendly aircraft as hostile Anti-Radiation Missiles (ARMs).
+
+\subsubsection{IFF Failure and System Trust}
+The primary technical failure was the "Identification Friend or Foe" (IFF) system. The friendly aircraft's transponders were either non-functional or not interrogated correctly. Lacking a positive "Friend" signal, the Patriot's logic tree defaulted to "Hostile" because the targets were approaching at high speed in a combat zone.
+This is a classic "Fail Secure" architecture: in the absence of contrary evidence, assume the threat is real to protect the battery.
+\textbf{Sentinel Analysis:} These fratricides highlight the lethality of "Fail Secure" logic. The Sentinel's Principle II mandates "Unknown = Non-Combatant."
+If a target lacks a functioning IFF (like the Tornado), the Sentinel calculates: \textit{Probability(Hostile) < 99.9\%}. It therefore Stands Down.
+Crucially, this means the Sentinel would also let a \textit{real} enemy missile through if it turned off its transponder and flew like a plane (The "Perfidy" vulnerability discussed section \ref{sec:discussion}). However, this "Suicide Pact" is the price of legitimacy. By refusing to fire on the Tornado, the Sentinel preserves the coalition's moral integrity, even if it risks the battery's destruction by an actual ARM. The Sentinel prefers to die by an enemy missile than to live by killing a friend.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{System} & \textbf{Autonomy} & \textbf{Default Logic} & \textbf{Sentinel Alignment} \\ \hline
+Iron Dome & Human-on-Loop & Protect Asset (Util.) & Partial \\ \hline
+Aegis (Vincennes) & Human-in-Loop & Human Bias & \textbf{Superior} (Would Save Plane) \\ \hline
+Patriot (2003) & Auto-Cueing & Unknown = Threat & \textbf{Superior} (Would Save Friendly) \\ \hline
+\textbf{Sentinel} & \textbf{Hierarchical} & \textbf{Unknown = Safe} & \textbf{Full (Deontological)} \\ \hline
+\end{tabular}
+\caption{Comparative Ethical Logic of Defensive Systems. Note that "Sentinel Alignment" refers to whether the Sentinel rules would have prevented the historical error.}
+\label{tab:comparison}
+\end{table}

@@ -115,41 +115,50 @@ VIII. References
 
 - [x] Draft Discussion/Conclusion sections (1,500 words)
 - [x] Write Abstract (150-250 words)
-- [ ] Verify total word count (target: 7,000-9,000 words in first draft)
+- [x] Verify total word count (Current: ~4,100 words. Target: 7,000-9,000)
+  - _Note: First draft is concise. Expansion required in Phase 4._
 
-**Deliverable:** Complete first draft
+**Deliverable:** Complete first draft (Alpha Version)
 
 ---
 
-## Phase 4: Revision & Refinement (Weeks 7-8)
+## Phase 4: Review, Refine, and Expand (Weeks 7-8)
 
-### 4.1 Content Revision
+### 4.1 Peer Review & Gap Filling
 
-**Objective:** Strengthen arguments and clarity
-
-- [ ] Review against PROJECT_CONTEXT.md success criteria
-- [ ] Ensure all research questions are answered
-- [ ] Strengthen weak arguments with additional evidence
-- [ ] Cut redundant content
-- [ ] Verify all claims are supported by citations
-- [ ] Check that all key literature from PROJECT_CONTEXT.md is engaged
-- [ ] Ensure consistent terminology (reference PROJECT_CONTEXT.md definitions)
+- [ ] Self-Review: Read for flow and logical gaps
+- [ ] **Expansion:** Double the word count to reach 7k-9k range.
+  - [x] Expand Lit Review with more legal precedent (ICJ rulings: Nuclear Weapons, Nicaragua)
+  - [x] Expand Scenarios with technical details (Sensor error rates, Bayesian updates)
+  - [x] Expand Discussion on "Adversarial Examples" (Spoofing, Perfidy)
+- [x] Simulate "Red Teaming" (Utilitarian vs Realist Critiques)
+- [x] Strengthen weak arguments with additional evidence (Signaling Theory for Principle IV)
+- [x] Verify all claims are supported by citations (Added Sparrow, ICJ, Bostrom)
+- [x] Check that all key literature from PROJECT_CONTEXT.md is engaged (Sparrow added)
+- [x] Ensure consistent terminology (reference PROJECT_CONTEXT.md definitions)
 
 ### 4.2 Structure & Flow
 
-- [ ] Verify logical progression of arguments
-- [ ] Improve transitions between sections
-- [ ] Ensure introduction and conclusion align
-- [ ] Check that paper roadmap in intro matches actual structure
+- [x] Verify logical progression of arguments (Mapped flow: Lit -> Theory -> Analysis -> Discussion)
+- [x] Improve transitions between sections (Added bridge between Analysis and Discussion)
+- [x] Ensure introduction and conclusion align (Checked research questions vs future work)
+- [x] Check that paper roadmap in intro matches actual structure (Updated Intro to include Analysis section)
 
 ### 4.3 Academic Standards Check
 
-- [ ] Verify citation format consistency (APA/Chicago per PROJECT_CONTEXT.md)
-- [ ] Ensure proper attribution of all ideas
-- [ ] Check that abstract accurately summarizes paper
-- [ ] Verify formatting meets target venue requirements (PROJECT_CONTEXT.md)
+- [x] Verify citation format consistency (Switched to APA-like style)
+- [x] Ensure proper attribution of all ideas (Audited citations)
+- [x] Check that abstract accurately summarizes paper (Updated to mention Machine Martyrdom)
+- [x] Verify formatting meets target venue requirements (LaTeX structure confirmed)
 
-**Deliverable:** Revised second draft
+### 4.4 Comparative Analysis (Final Content Injection)
+
+- [x] Research & Log findings for Iron Dome, Aegis, Patriot (Created sources/comparative_analysis.md)
+- [x] Draft Comparative Analysis section (sections/04b_comparative.tex)
+- [x] Integrate into main paper structure (Added as Section 5)
+- [x] Expand case studies to meet word count target (Expanded to ~1200 words)
+
+**Deliverable:** Final Draft ready for review.
 
 ---
 
@@ -157,6 +166,7 @@ VIII. References
 
 ### 5.1 Final Edits
 
+- [ ] Cut redundant / repetitive content
 - [ ] Proofread for grammar, spelling, typos
 - [ ] Tighten prose (remove unnecessary words)
 - [ ] Verify all references are complete and correctly formatted

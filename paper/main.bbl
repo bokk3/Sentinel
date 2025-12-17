@@ -1,61 +1,77 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{}
 
-\bibitem{anderson2008}
-Susan~Leigh Anderson.
+\bibitem[Anderson, 2008]{anderson2008}
+Anderson, S.~L. (2008).
 \newblock Asimov’s "three laws of robotics" and machine metaethics.
-\newblock {\em AI \& Society}, 22(4):477--493, 2008.
+\newblock {\em AI \& Society}, 22(4):477--493.
 
-\bibitem{asimov1950}
-Isaac Asimov.
+\bibitem[Asimov, 1950]{asimov1950}
+Asimov, I. (1950).
 \newblock {\em I, Robot}.
-\newblock Gnome Press, 1950.
+\newblock Gnome Press.
 
-\bibitem{bostrom2014}
-Nick Bostrom.
+\bibitem[Bostrom, 2014]{bostrom2014}
+Bostrom, N. (2014).
 \newblock {\em Superintelligence: Paths, Dangers, Strategies}.
-\newblock Oxford University Press, 2014.
+\newblock Oxford University Press.
 
-\bibitem{brunstetter2013}
-Daniel Brunstetter and Megan Braun.
+\bibitem[Brunstetter and Braun, 2013]{brunstetter2013}
+Brunstetter, D. and Braun, M. (2013).
 \newblock From jus ad bellum to jus ad vim: Recalibrating our understanding of
   the moral use of force.
-\newblock {\em Ethics \& International Affairs}, 27(1):87--106, 2013.
+\newblock {\em Ethics \& International Affairs}, 27(1):87--106.
 
-\bibitem{elish2019}
-Madeleine~Clare Elish.
+\bibitem[Elish, 2019]{elish2019}
+Elish, M.~C. (2019).
 \newblock Moral crumple zones: Cautionary tales in human-robot interaction.
-\newblock {\em Engaging Science, Technology, and Society}, 5:40--60, 2019.
+\newblock {\em Engaging Science, Technology, and Society}, 5:40--60.
 
-\bibitem{icrc}
-{International Committee of the Red Cross}.
+\bibitem[{International Committee of the Red Cross}, 1987]{icrc}
+{International Committee of the Red Cross} (1987).
 \newblock Commentary on the additional protocols of 8 june 1977 to the geneva
-  conventions of 12 august 1949, 1987.
+  conventions of 12 august 1949.
 
-\bibitem{nato2021}
-{NATO}.
-\newblock Summary of the nato artificial intelligence strategy, 2021.
+\bibitem[{International Court of Justice}, 1986]{icj1986}
+{International Court of Justice} (1986).
+\newblock Military and paramilitary activities in and against nicaragua
+  (nicaragua v. united states of america), merits, judgment.
+\newblock I.C.J. Reports 1986, p. 14.
+
+\bibitem[{International Court of Justice}, 1996]{icj1996}
+{International Court of Justice} (1996).
+\newblock Legality of the threat or use of nuclear weapons, advisory opinion.
+\newblock I.C.J. Reports 1996, p. 226.
+
+\bibitem[{NATO}, 2021]{nato2021}
+{NATO} (2021).
+\newblock Summary of the nato artificial intelligence strategy.
 \newblock Brussels.
 
-\bibitem{russell2019}
-Stuart Russell.
+\bibitem[Russell, 2019]{russell2019}
+Russell, S. (2019).
 \newblock {\em Human Compatible: Artificial Intelligence and the Problem of
   Control}.
-\newblock Viking, 2019.
+\newblock Viking.
 
-\bibitem{scharre2018}
-Paul Scharre.
+\bibitem[Scharre, 2018]{scharre2018}
+Scharre, P. (2018).
 \newblock {\em Army of None: Autonomous Weapons and the Future of War}.
-\newblock W. W. Norton \& Company, 2018.
+\newblock W. W. Norton \& Company.
 
-\bibitem{dod2023}
-{U.S. Department of Defense}.
-\newblock Dod directive 3000.09: Autonomy in weapon systems, 2023.
+\bibitem[Sparrow, 2007]{sparrow2007}
+Sparrow, R. (2007).
+\newblock Killer robots.
+\newblock {\em Journal of Applied Philosophy}, 24(1):62--77.
+
+\bibitem[{U.S. Department of Defense}, 2023]{dod2023}
+{U.S. Department of Defense} (2023).
+\newblock Dod directive 3000.09: Autonomy in weapon systems.
 \newblock Washington, DC.
 
-\bibitem{walzer1977}
-Michael Walzer.
+\bibitem[Walzer, 1977]{walzer1977}
+Walzer, M. (1977).
 \newblock {\em Just and Unjust Wars: A Moral Argument with Historical
   Illustrations}.
-\newblock Basic Books, 1977.
+\newblock Basic Books.
 
 \end{thebibliography}

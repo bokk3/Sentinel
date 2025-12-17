@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.17)  17 DEC 2025 01:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.17)  17 DEC 2025 02:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -216,32 +216,39 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidthlast=\dimen157
 \titlewidthfirst=\dimen158
 )
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip54
+\bibsep=\skip55
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count278
+)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count278
+\l__color_backend_stack_int=\count279
 \l__pdf_internal_box=\box53
 )
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -277,51 +284,60 @@ LaTeX Font Info:    ... okay on input line 18.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 18.
+Package hyperref Info: Link coloring OFF on input line 20.
 (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 21.
+(Font)              <12> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 21.
+(Font)              <8> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 21.
+(Font)              <6> on input line 23.
  (./sections/00_abstract.tex) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 2.
-)
+ [2])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [2] (./sections/01_introduction.tex [3]
+ [3]
+(./sections/01_introduction.tex [4]
 Overfull \hbox (37.32419pt too wide) in paragraph at lines 25--26
 []\T1/cmr/bx/n/10.95 Code com-pli-ance: \T1/cmr/m/n/10.95 How can the prin-ci-p
 les of In-ter-na-tional Hu-man-i-tar-ian Law (IHL)^^Vspecifically
  []
 
-) (./sections/02_literature_review.tex [4] [5])
-(./sections/03_theoretical_framework.tex [6] [7]) (./sections/04_analysis.tex
-[8]) [9] (./sections/05_discussion.tex) [10] (./sections/06_conclusion.tex)
-(./main.bbl [11]) [12] (./main.aux)
+) (./sections/02_literature_review.tex [5] [6]) [7]
+(./sections/03_theoretical_framework.tex [8] [9]) (./sections/04_analysis.tex
+[10]) (./sections/04b_comparative.tex [11] [12]
+Overfull \hbox (14.31535pt too wide) in paragraph at lines 35--43
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./sections/05_discussion.tex [13] [14] [15]) [16]
+(./sections/06_conclusion.tex) [17] (./main.bbl) [18] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A44C955104A003296153F815DCDD956D;7018.
+(rerunfilecheck)             Checksum: 3D89E396755883B5A314F70C7ADE6CA7;10445.
  ) 
 Here is how much of TeX's memory you used:
- 9091 strings out of 476182
- 140900 string characters out of 5795594
- 1935975 words of memory out of 5000000
- 30932 multiletter control sequences out of 15000+600000
+ 9510 strings out of 476182
+ 146647 string characters out of 5795594
+ 1937975 words of memory out of 5000000
+ 31320 multiletter control sequences out of 15000+600000
  570392 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,6n,79p,1191b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,1207b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/bokkie/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.60
 0pk> </home/bokkie/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1200.
 600pk> </home/bokkie/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx120
@@ -333,11 +349,14 @@ cbx1095.600pk> </home/bokkie/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec
 ec/ecrm1000.600pk> </home/bokkie/.texlive2023/texmf-var/fonts/pk/ljfour/jknappe
 n/ec/ecbx1000.600pk> </home/bokkie/.texlive2023/texmf-var/fonts/pk/ljfour/jknap
 pen/ec/ecrm1200.600pk> </home/bokkie/.texlive2023/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecrm1728.600pk>
-Output written on main.pdf (12 pages, 164067 bytes).
+appen/ec/ecrm1728.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb>
+Output written on main.pdf (18 pages, 219282 bytes).
 PDF statistics:
- 723 PDF objects out of 1000 (max. 8388607)
- 295 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 890 PDF objects out of 1000 (max. 8388607)
+ 432 compressed objects within 5 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 361 words of extra memory for PDF output out of 10000 (max. 10000000)
 
